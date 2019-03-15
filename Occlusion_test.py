@@ -128,7 +128,7 @@ def generate_occlusion_map(predic_result):
 
 #********************************************************************
 #**** main program
-image_pair = ["Occlusion_test/dataset/sob_lateral.bmp","Occlusion_test/dataset/Doc3_lateral.bmp"]
+image_pair = ["demo_data/sob_lateral.bmp","demo_data/Doc3_lateral.bmp"]
 data = generate_occluded_imageset(image_pair)
 print('occluded imageset generated!')
 model = predict_model()
